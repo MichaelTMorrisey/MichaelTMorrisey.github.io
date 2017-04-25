@@ -6,3 +6,13 @@ p{
   color: 123;
   font-size: 70%;
 }
+
+.menu_bar {
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 10000;
+}
