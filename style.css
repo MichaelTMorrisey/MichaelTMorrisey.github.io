@@ -1,3 +1,8 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 h1{
   background: url("https://www.instagram.com/p/BR6P5-5gFMA/?taken-by=wallwriting") no-repeat center top;
 }
