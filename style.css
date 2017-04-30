@@ -16,16 +16,19 @@ p{
   z-index: 10000;   <!--  sets rank in stack; higher number elements are displayed on top of (blocking) lower numbered elements -->
   left: 0;
   top: 0;
-  test-align: center;
+  test-align: left;
+  background-color: white; 
+
 }
 
 .menu_bar {
   overflow-y: auto;
   position: fixed;
-  right: 0;
+  left: 0;
   top: 0;
-  text-align: center;
+  text-align: right;
   z-index: 1;
+  background-color: white;
 }
 
 ul {
