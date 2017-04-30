@@ -11,8 +11,9 @@ p{
 }
 
 .header {
-  overflow-y:auto;
+  overflow-y: auto;
   position: fixed;
+  z-index: 10000;
 }
 
 .menu_bar {
