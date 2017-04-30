@@ -13,11 +13,10 @@ p{
 .header {
   overflow-y: auto; <!-- will provide scrollbar if needed -->
   position: fixed;  <!-- keeps it in the viewing window regardless of scrolling-->
-  z-index: 10000;   <--
+  z-index: 10000;   <!--  sets rank in stack; higher number elements are displayed on top of (blocking) lower numbered elements -->
   left: 0;
   top: 0;
   test-align: center;
-  width: 40%;
 }
 
 .menu_bar {
@@ -26,8 +25,7 @@ p{
   right: 0;
   top: 0;
   text-align: center;
-  width: 60%;
-  z-index: 10000;
+  z-index: 1;
 }
 
 ul {
