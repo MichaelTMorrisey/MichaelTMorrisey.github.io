@@ -1,7 +1,6 @@
 body{
   margin: 0;
   padding: 0;
-background: url("https://www.instagram.com/p/BR6P5-5gFMA/?taken-by=wallwriting") no-repeat center top;
 
 }
 
@@ -13,6 +12,7 @@ p{
 
 .header {
   overflow-y:auto;
+  position: fixed;
 }
 
 .menu_bar {
