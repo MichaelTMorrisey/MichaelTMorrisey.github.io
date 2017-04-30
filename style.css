@@ -11,22 +11,22 @@ p{
 }
 
 .header {
-  overflow-y: auto;
-  position: fixed;
-  z-index: 10000;
+  overflow-y: auto; <!-- will provide scrollbar if needed -->
+  position: fixed;  <!-- keeps it in the viewing window regardless of scrolling-->
+  z-index: 10000;   <--
   left: 0;
   top: 0;
   test-align: center;
-  width: 100%;
+  width: 40%;
 }
 
 .menu_bar {
   overflow-y: auto;
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
   text-align: center;
-  width: 100%;
+  width: 60%;
   z-index: 10000;
 }
 
