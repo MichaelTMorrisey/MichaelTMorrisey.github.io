@@ -21,7 +21,7 @@ p{
   z-index: 10000;   <!--  sets rank in stack; higher number elements are displayed on top of (blocking) lower numbered elements -->
   left: 0;
   top: 0;
-  test-align: left;
+  text-align: left;  
   background-color: white; 
 
 }
@@ -31,7 +31,7 @@ p{
   position: fixed;
   left: 0;
   top: 0;
-  text-align: right;
+  float: right; <!-- set the menu bar to cling to the right side of the viewing window-->
   z-index: 1;
   background-color: white;
 }
@@ -41,7 +41,8 @@ ul {
 }
 
 li {
-  display: inline-block;
+  display: inline-block; <!-- sets the menu bar items to display side by side-->
   font-size: 16px;
-  margin: 16px 20px;
+  margin: 20px;
 }
+
