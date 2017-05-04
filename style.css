@@ -27,18 +27,12 @@ p{
 
 }
 
-.header .menu_bar {
- 
-  float: right; <!-- set the menu bar to cling to the right side of the viewing window-->
-
-}
-
 h1{
   display: inline;
 }
 
 ul {
-  display: inline-block;
+  display: inline;
   <!-- padding: 0; --> 
 }
 
