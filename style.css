@@ -39,5 +39,5 @@ ul {
 li {
   font-size: 16px;
   margin: 20px;
-  <!--display: inline-block; <!-- set the menu items to be all together side by side -->
+  display: inline;
 }
