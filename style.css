@@ -38,6 +38,7 @@ h1{
 }
 
 ul {
+  display: inline;
   <!-- padding: 0; --> 
 }
 
