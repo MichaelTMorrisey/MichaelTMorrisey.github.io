@@ -27,12 +27,9 @@ p{
 }
 
 .menu_bar {
-  overflow-y: auto;
-  position: fixed;
-  left: 0;
-  top: 0;
+ 
   float: right; <!-- set the menu bar to cling to the right side of the viewing window-->
-  background-color: white;
+ 
 }
 
 ul {
