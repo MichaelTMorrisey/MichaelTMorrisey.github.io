@@ -18,7 +18,7 @@ p{
 .header {
   overflow-y: auto; <!-- will provide scrollbar if needed -->
   position: fixed;  <!-- keeps it in the viewing window regardless of scrolling-->
-  z-index: 10000;   <!--  sets rank in stack; higher number elements are displayed on top of (blocking) lower numbered elements -->
+ <!-- z-index: 10000;   <!--  sets rank in stack; higher number elements are displayed on top of (blocking) lower numbered elements -->
   left: 0;
   top: 0;
   text-align: left;  
@@ -32,7 +32,6 @@ p{
   left: 0;
   top: 0;
   float: right; <!-- set the menu bar to cling to the right side of the viewing window-->
-  z-index: 1;
   background-color: white;
 }
 
