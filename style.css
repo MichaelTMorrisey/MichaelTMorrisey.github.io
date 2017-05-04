@@ -19,8 +19,7 @@ p{
   overflow-y: auto; <!-- will provide scrollbar if needed -->
   position: fixed;  <!-- keeps it in the viewing window regardless of scrolling-->
  <!-- z-index: 10000;   <!--  sets rank in stack; higher number elements are displayed on top of (blocking) lower numbered elements -->
-  left: 0;
-  top: 0;
+  margin: 5px;
   text-align: left;  
   background-color: white;
   display: inline-block; <!-- items will display side by side -->
