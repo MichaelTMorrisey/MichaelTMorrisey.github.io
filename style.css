@@ -27,7 +27,7 @@ p{
 
 }
 
-.menu_bar {
+.header .menu_bar {
  
   float: right; <!-- set the menu bar to cling to the right side of the viewing window-->
 
