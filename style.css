@@ -29,6 +29,7 @@ p{
 
 nav{
   display: inline;
+  float: right;
 }
 
 h1{
@@ -37,7 +38,7 @@ h1{
 
 ul {
   display: inline;
-  float: right;
+  <!-- float: right;
   <!-- padding: 0; -->
 }
 
