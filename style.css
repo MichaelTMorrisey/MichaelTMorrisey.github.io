@@ -18,8 +18,10 @@ p{
 
 .header {
   width: 100%;
-  overflow-y: auto; <!-- will provide scrollbar if needed -->
+  <!-- overflow-y: auto; <!-- will provide scrollbar if needed -->
   position: fixed;  <!-- keeps it in the viewing window regardless of scrolling-->
+  left: 0;
+  top: 0;
  <!-- z-index: 10000;   <!--  sets rank in stack; higher number elements are displayed on top of (blocking) lower numbered elements -->
   margin: 5px
   text-align: left;  
