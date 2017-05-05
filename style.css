@@ -16,24 +16,25 @@ p{
 }
 
 .header {
-  width: 100%; <!-- use the full width of the page -->
   overflow-y: auto; <!-- will provide scrollbar if needed -->
   position: fixed;  <!-- keeps it in the viewing window regardless of scrolling-->
  <!-- z-index: 10000;   <!--  sets rank in stack; higher number elements are displayed on top of (blocking) lower numbered elements -->
-  margin: 5px;
+  margin: 5px
   text-align: left;  
   background-color: white;
   display: inline-block; <!-- items will display side by side -->
 
 }
 
-h1{
-  display: inline;
+.menu_bar {
+ 
+  float: right; <!-- set the menu bar to cling to the right side of the viewing window-->
+ 
 }
 
 ul {
   display: inline;
-  <!-- padding: 0; --> 
+  <!-- padding: 0; -->
 }
 
 li {
@@ -41,3 +42,4 @@ li {
   margin: 20px;
   display: inline;
 }
+
