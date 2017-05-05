@@ -25,7 +25,10 @@ p{
   text-align: left;  
   background-color: white;
   display: inline-block; <!-- items will display side by side -->
+}
 
+nav{
+  display: inline;
 }
 
 h1{
