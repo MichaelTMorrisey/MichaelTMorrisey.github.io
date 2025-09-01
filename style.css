@@ -1,52 +1,82 @@
-*{
-  border-style: solid;
+/*This file written by Michael Morrisey,
+	last updated 9/1/2025.
+	This is a CSS style sheet for a website
+	showing my data science projects, resume,
+	and contact information.
+*/
+
+
+/*Basic page structure: header, main, footer.
+Header and footer remain fixed in browser window 
+while content in main is scrollable.*/
+
+header{
+	display: block;
+	position: fixed; /* Stay in place when scrolling */
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100%;
 }
 
-
-body{
-  margin: 10px;
-  padding: 10px;
-  background-image: url("20170319_111224111.jpg");
-  background-size: 100%;
+main{
+	display: block;
+	position: absolute; 
+	top:100px;
+	bottom: 40px;
+	overflow: auto;
 }
 
-
-p{
-  color: 123;
-  font-size: 70%;
+footer{
+	display: block;
+	position: fixed; /* Stay in place when scrolling */
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	width: 100%;
+	text-align: center;
 }
 
-.header {
-  width: 100%;
-  <!-- overflow-y: auto; <!-- will provide scrollbar if needed -->
-  position: fixed;  <!-- keeps it in the viewing window regardless of scrolling-->
-  left: 0;
-  top: 0;
- <!-- z-index: 10000;   <!--  sets rank in stack; higher number elements are displayed on top of (blocking) lower numbered elements -->
-  margin: 5px
-  text-align: left;  
-  background-color: white;
-  display: inline-block; <!-- items will display side by side -->
+/*The header will include an image at the top left*/
+#menu_bar #headshot{
+	float: left;
+	height: 80px;
+	--position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
 }
 
-nav{
-  display: inline;
-  float: right;
+/*The header will include a heading at the top right*/
+#menu_bar h1{
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
 }
 
-h1{
-  display: inline;
+/*
+In the main body of the page, which is scrollable,
+any images will be shown at 100% width of the window.
+This descendent combinator selector "main img" 
+applies only to images within the main body of the website,
+aka will not edit the size of the image in the header
+*/
+main img{
+	width: 100%;
 }
 
-ul {
-  display: inline;
-  <!-- float: right;
-  <!-- padding: 0; -->
+/*The main body of the page includes subheadings
+which will be appended at the bottom of the header as we scroll down
+and each one we scroll past will replace the previous one
+at the bottom of the header. Set the background color
+so that the text will not show below the header as it scrolls past. */
+h2{
+	position: sticky;
+	top: 0;
+	background: white;
 }
 
-li {
-  font-size: 16px;
-  margin: 20px;
-  display: inline;
+/*Adjust the resume PDF so that it doesn't create a side-scroll bar*/
+iframe{
+	
+	box-sizing: border-box;
 }
-
